@@ -1,0 +1,27 @@
+{
+  "name": "stdenv_node_default",
+  "version": "1.0.0",
+  "description": "This project offers default package dependencies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.162.0",
+    "babel-polyfill": "^6.20.0",
+    "gulp": "^3.9.1",
+    "mysql": "^2.15.0",
+    "serverless": "^1.24.1",
+    "slickgrid": "^2.3.3",
+    "typescript": "^2.6.2",
+    "vue": "^2.1.8"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.26",
+    "serverless-offline": "^3.16.0",
+    "tslint": "^4.2.0",
+    "typescript": "^2.1.4"
+  }
+}
