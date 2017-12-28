@@ -12,4 +12,4 @@ npm install <package> --save
 How to archive to zip
 ---------------------
 
-run "make_zip.bat" so that "stdenv_node_packages-x86.zip.***" will be created.
+run "make_zip_modules.bat" so that "stdenv_node_packages-x86.zip.***" will be created.
