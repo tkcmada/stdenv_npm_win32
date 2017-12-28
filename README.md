@@ -3,6 +3,7 @@ How to manage npm packages for win32
 
 ```sh
 start_cmd.bat
+git config --global core.autocrlf false
 cd stdenv_node_modules-x86
 
 #DO NOT INSTALL to --global
