@@ -5,7 +5,8 @@ How to manage npm packages for win32
 start_cmd.bat
 cd default_project
 
-npm install <package> --save  #DO NOT INSTALL --global
+#DO NOT INSTALL to --global
+npm install <package> --save
 ```
 
 How to archive to zip
