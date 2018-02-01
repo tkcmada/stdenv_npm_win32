@@ -6,7 +6,7 @@ start_cmd.bat
 git config --global core.autocrlf false
 cd stdenv_node_modules-x86
 
-#DO NOT INSTALL to --global
+#DO NOT INSTALL to --global as which won't be installed into stdenv_node_modules-x86 directory.
 npm install <package> --save
 ```
 
