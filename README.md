@@ -11,6 +11,7 @@ npm install <package> --save
 #use --global only development tool such as swagger
 npm install --global swagger
 npm install --global swagger-codegen
+npm install --global swagger-node-codegen
 ```
 
 How to archive to zip
