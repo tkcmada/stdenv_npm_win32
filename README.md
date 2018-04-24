@@ -9,8 +9,10 @@ cd stdenv_node_modules-x86
 npm install <package> --save
 
 #use --global only development tool such as swagger
-npm install --global swagger
-npm install --global swagger-node-codegen
+npm install -g swagger
+npm install -g swagger-node-codegen
+npm install -g offline-npm
+npm install -g npm-proxy-cache
 ```
 
 How to archive to zip
