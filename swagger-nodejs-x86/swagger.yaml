@@ -1,0 +1,28 @@
+swagger: "2.0"
+
+info:
+  version: 1.0.0
+  title: hello api
+  description: hello world swagger api
+
+schemes:
+  - http
+host: localhost:80
+basePath: /
+
+paths:
+  /hello:
+    get:
+      summary: return "world" 
+      description: return "world"
+      parameters:
+        - name: user
+          in: query
+          description: optional user name
+          type: string
+      responses:
+        200:
+          description: Returns result
+          schema:
+            type: string
+
