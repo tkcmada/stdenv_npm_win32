@@ -13,6 +13,7 @@ npm install -g swagger
 npm install -g swagger-node-codegen
 npm install -g offline-npm
 npm install -g npm-proxy-cache
+npm install -g jest-jenkins-reporter 
 ```
 
 How to archive to zip
